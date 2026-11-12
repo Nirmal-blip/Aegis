@@ -6,7 +6,7 @@
 //! needs the isolation machinery from M6 is getting the line *in* and the
 //! response back *out* across the syscall boundary (`src/syscall/mod.rs`
 //! `SYS_READ_LINE` / `SYS_SHELL_DISPATCH`), not the command logic itself.
-//!
+//!hello
 //! Doc 2 section 8: "The shell is a user-space process, not a kernel
 //! feature." The process loop and the decision to keep reading and
 //! dispatching lines lives in ring 3 (`user::shell_program`, a
