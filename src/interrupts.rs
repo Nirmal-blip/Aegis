@@ -2,6 +2,7 @@
 //! hardware interrupts wired up so far (the PIT timer and the PS/2
 //! keyboard). Set up right after output so faults become visible instead of
 //! silent reboots.
+//! precise
 
 use crate::gdt;
 use crate::{log_warn, serial_print, serial_println};
