@@ -1,4 +1,4 @@
-//! COM1 serial output. The primary channel: boot log, panics, and (later) the shell.
+//! COM1 serial output. The primary chan nel: boot log, panics, and (later) the shell.
 
 use spin::Mutex;
 use uart_16550::SerialPort;

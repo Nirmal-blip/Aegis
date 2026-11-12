@@ -3,9 +3,9 @@
 //! most call sites use; this exists to mirror the *key* output (the boot
 //! banner, panics) onto the emulated screen too, per Doc 2 section 3
 //! ("useful for a visible banner and panic, but serial is the workhorse").
-//!
+
 //! The buffer lives at physical address 0xb8000 (25 rows x 80 columns, 2
-//! bytes per cell: an ASCII byte and a color-attribute byte) -- ordinary
+//! bytes per cell: an ASC    II byte and a color-attribute byte) -- ordinary
 //! physical memory the bootloader's default video-mode stub (see
 //! `bootloader`'s `video_mode/vga_text_80x25.s`) sets the CPU into before
 //! Rust ever runs. Reached through the same physical-memory offset mapping

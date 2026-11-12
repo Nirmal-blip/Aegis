@@ -1,6 +1,6 @@
 //! Flint kernel library. Shared by the `flint` binary and by the in-kernel
 //! integration tests under `tests/`, so both boot through the same `init`
-//! path and the same panic/test machinery.
+//! path and the same panic/test machinery...
 
 #![no_std]
 #![cfg_attr(test, no_main)]

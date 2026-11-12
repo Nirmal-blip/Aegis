@@ -1,6 +1,6 @@
 //! A tiny, hand-written ring-3 program -- Flint has no ELF loader yet
 //! (that is M8 stretch), so "a first user program" means literal machine
-//! code the kernel places directly into a freshly mapped, isolated user
+
 //! page and jumps to. Written as position-independent assembly (only a
 //! local, `rip`-relative-addressed data label and a local backward jump,
 //! nothing depending on where the kernel happened to load it) specifically
